@@ -2,7 +2,7 @@
 
 This sample website that has a nice animation of bouncing balls.
 
-## [Live Preview]()
+## [Live Preview](https://internet-cafe.netlify.app/)
 
 ## Screenshots
 
