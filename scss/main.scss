@@ -1,0 +1,41 @@
+@import "config";
+@import "header";
+@import "jumbo";
+@import "button";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+  user-select: none;
+}
+
+body {
+  background-color: $primary-color;
+  background: url(/assets/bg.svg);
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+}
+
+footer {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: $secondary-color;
+}
+
+@import "mobile";

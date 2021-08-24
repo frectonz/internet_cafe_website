@@ -1,0 +1,26 @@
+%btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 50% 40% 30% 10%;
+  box-shadow: 8px 8px 17px #c2c9d0, -8px -8px 17px #ffffff;
+  font-size: 1.3rem;
+  transition: 400ms;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  margin: 1rem;
+  text-align: center;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $primary-color;
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $secondary-color;
+  color: #fff;
+}

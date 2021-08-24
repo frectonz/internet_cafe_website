@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Internet Cafe</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <h1 class="logo">Internet<span>Cafe</span></h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="jumbo" id="home">
+        <h1 class="jumbo-header">We offer the best WIFI in Arabsa.</h1>
+        <p class="jumbo-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero eos
+          dicta dolor earum excepturi ullam nostrum velit tenetur similique
+          tempora.
+        </p>
+        <div class="jumbo-buttons">
+          <a href="#" class="btn-primary">Leran about us</a>
+          <a href="#" class="btn-secondary">Contact us</a>
+        </div>
+      </div>
+    </main>
+
+    <div class="jumbo" id="about">
+      <h1 class="jumbo-header">About Us</h1>
+      <p class="jumbo-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quis
+        consectetur nam facere hic, quo voluptatibus similique velit, ipsum
+        aspernatur alias reiciendis sunt explicabo doloribus eaque et libero
+        eligendi repudiandae dolor facilis autem exercitationem repellendus
+        quidem. Reiciendis iure nobis commodi quae praesentium itaque animi
+        eligendi, quam quidem facilis illo magni?
+      </p>
+    </div>
+
+    <div class="jumbo" id="services">
+      <h1 class="jumbo-header">Our Services</h1>
+      <ul class="jumbo-list">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+    </div>
+
+    <div class="jumbo" id="contact">
+      <h1 class="jumbo-header">Contact Us</h1>
+      <p class="jumbo-location">
+        You can find us at <span>Arabsa condominium, Block 00 at floor 1.</span>
+      </p>
+      <p class="jumbo-body">You can find us using the fllowing links.</p>
+      <div class="jumbo-buttons">
+        <a href="#" class="btn-secondary">facebook</a>
+        <a href="#" class="btn-secondary">call</a>
+        <a href="#" class="btn-secondary">email</a>
+        <a href="#" class="btn-secondary">sms</a>
+      </div>
+    </div>
+
+    <footer>Copyright echo web &copy; 2020.</footer>
+
+    <canvas></canvas>
+
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/particles.js"></script>
+
+    <script>
+      const ss = document.querySelectorAll(".jumbo");
+      M.ScrollSpy.init(ss, {});
+    </script>
+  </body>
+</html>
