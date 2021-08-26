@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afd7363e-ef7d-4851-8815-6172a14d8eb6/deploy-status)](https://app.netlify.com/sites/internet-cafe/deploys)
+
 # Internet Cafe Website
 
 This sample website that has a nice animation of bouncing balls.
